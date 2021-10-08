@@ -21,6 +21,7 @@
 > 📈 Add indicators to show the sum of expenses based on filtering criteria.<br>
 > 🖌 Re-design the page visual.
 
-<hr>
+<hr />
+
 ![](expenseapp-gif.gif)
 
