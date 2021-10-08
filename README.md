@@ -9,7 +9,7 @@
 
 ## 💲 Introduction
 
-> A simple Expense Management App built using HTML5, Bootstrap 4 and Javascript. Totally functional.
+> A simple Expense Management App built using HTML5, Bootstrap 4 and Javascript, saves in Local Storage. Totally Functional.
 
 
 ## 🔎 Features
