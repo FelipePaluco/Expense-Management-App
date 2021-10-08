@@ -22,7 +22,7 @@
 > 🖌 Re-design the page visual.<br>
 > 📃 Create a Pagination system to expenses table.
 
-<hr />
+## 👁️ Preview:
 
 ![](expenseapp-gif.gif)
 
