@@ -22,5 +22,5 @@
 > 🖌 Re-design the page visual.
 
 <hr>
-![](expenseappgif.gif)
+![](expenseapp-gif.gif)
 
