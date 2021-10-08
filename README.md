@@ -20,6 +20,7 @@
 
 > 📈 Add indicators to show the sum of expenses based on filtering criteria.<br>
 > 🖌 Re-design the page visual.
+> 🖌 Create a Pagination system to expenses table.
 
 <hr />
 
