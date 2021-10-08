@@ -14,13 +14,13 @@
 
 ## 🔎 Features
 
-> 💸 Register a new expense<br>👀 Consult your registered expenses<br>🧭 Filter by year, month, day, type and description.
+> 💸 Register a new expense<br>👀 Consult your registered expenses<br>🧭 Filter by Year, Month, Day, Type and Description.
 
 ## 🛠 To-do List:
 
 > 📈 Add indicators to show the sum of expenses based on filtering criteria.<br>
-> 🖌 Re-design the page visual.
-> 🖌 Create a Pagination system to expenses table.
+> 🖌 Re-design the page visual.<br>
+> 📃 Create a Pagination system to expenses table.
 
 <hr />
 
