@@ -177,7 +177,7 @@ function carregarListaDespesas(despesas = Array(), filtro = false) {
 		var linha = listaDespesas.insertRow();
 
 		//Criando as colunas (td)
-		linha.insertCell(0).innerHTML = `${d.dia}/${d.mes}/${d.ano}` 
+		linha.insertCell(0).innerHTML = `${d.mes}/${d.dia}/${d.ano}` 
 
 		//Ajustar o tipo
 		switch(d.tipo){
