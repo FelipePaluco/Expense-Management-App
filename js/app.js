@@ -129,7 +129,7 @@ function cadastrarDespesa() {
         descricao.value = ''
         valor.value = ''
 
-    } else {
+    } else {  
         mostrarModal(0);
     }
     
@@ -165,9 +165,16 @@ function cadastrarDespesa() {
 
 function carregarListaDespesas(despesas = Array(), filtro = false) {
 
+    
+    let sumtotal = 0;
+    let total = document.getElementById("total-text");
+    let resultado;
+
     if(despesas.length == 0 && filtro == false){
 		despesas = db.recuperarTodosRegistros() 
+        total.innerText = 'No expenses registered yet.';
 	}
+
 
 	let listaDespesas = document.getElementById("listaDespesas")
     listaDespesas.innerHTML = ''
@@ -178,6 +185,11 @@ function carregarListaDespesas(despesas = Array(), filtro = false) {
 
 		//Criando as colunas (td)
 		linha.insertCell(0).innerHTML = `${d.mes}/${d.dia}/${d.ano}` 
+
+        //Inserindo o total de despesas até agora.
+        resultado = sumtotal += parseFloat(d.valor.replace('.', '').replace(',', '.'));
+        total.innerText = '$' + resultado;
+
 
 		//Ajustar o tipo
 		switch(d.tipo){
@@ -195,7 +207,7 @@ function carregarListaDespesas(despesas = Array(), filtro = false) {
 		}
 		linha.insertCell(1).innerHTML = d.tipo
 		linha.insertCell(2).innerHTML = d.descricao
-		linha.insertCell(3).innerHTML = '$' + d.valor
+		linha.insertCell(3).innerHTML = d.valor
 
         let btn = document.createElement("button")
         btn.className = 'btn btn-danger';
