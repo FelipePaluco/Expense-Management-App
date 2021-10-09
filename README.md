@@ -14,7 +14,7 @@
 
 ## 🔎 Features
 
-> 💸 Register a new expense<br>👀 Consult your registered expenses<br>🧭 Filter by Year, Month, Day, Type and Description.
+> 💸 Register a new expense<br>👀 Consult your registered expenses<br>🧭 Filter by Year, Month, Day, Type and Description.<br>➕ See the sums of your expenses.
 
 ## 🛠 To-do List:
 
