@@ -205,9 +205,9 @@ function carregarListaDespesas(despesas = Array(), filtro = false) {
 				break
 			
 		}
-		linha.insertCell(1).innerHTML = d.tipo
-		linha.insertCell(2).innerHTML = d.descricao
-		linha.insertCell(3).innerHTML = d.valor
+		linha.insertCell(1).innerHTML = d.tipo;
+		linha.insertCell(2).innerHTML = d.descricao;
+		linha.insertCell(3).innerHTML = '$' + d.valor;
 
         let btn = document.createElement("button")
         btn.className = 'btn btn-danger';
