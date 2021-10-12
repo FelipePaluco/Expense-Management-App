@@ -172,7 +172,7 @@ function carregarListaDespesas(despesas = Array(), filtro = false) {
 
     if(despesas.length == 0 && filtro == false){
 		despesas = db.recuperarTodosRegistros() 
-        total.innerText = 'No expenses registered yet.';
+        total.innerHTML = '<p class="text-muted text-center">No expenses registered yet.</p>';
 	}
 
 
@@ -188,7 +188,7 @@ function carregarListaDespesas(despesas = Array(), filtro = false) {
 
         //Inserindo o total de despesas até agora.
         resultado = sumtotal += parseFloat(d.valor.replace('.', '').replace(',', '.'));
-        total.innerText = '$' + resultado;
+        total.innerHTML = 'Total: ' + resultado.toLocaleString('en-US', { style: 'currency', currency: 'USD' });;
 
 
 		//Ajustar o tipo
