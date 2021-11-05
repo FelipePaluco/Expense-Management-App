@@ -15,13 +15,13 @@
 ## 🔎 Features
 
 > 💸 Register a new expense<br>👀 Consult your registered expenses<br>🧭 Filter by Year, Month, Day, Type and Description.<br>➕ See the sums of your expenses.
+<br/><br/>
+<a href="https://felipepaluco.github.io/Expense-Management-App/">Click here to check it out!</a>
 
 ## 🛠 To-do List:
 
 > 🖌 Re-design the page visual.<br>
 > 📃 Create a Pagination system to expenses table.
-
-<a href="https://felipepaluco.github.io/Expense-Management-App/">Click here to try by yourself.</a>
 
 ## 👁️ Preview:
 
